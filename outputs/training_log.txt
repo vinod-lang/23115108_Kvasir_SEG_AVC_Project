@@ -1,0 +1,57 @@
+Using device: mps
+Using device: mps
+
+============================================================
+TRAINING: BASELINE MODEL
+============================================================
+Epoch 01/15 | Train Loss: 0.5107 | Train mIoU: 0.4679 | Val Loss: 0.4380 | Val mIoU: 0.4301
+  Saved best model (Val mIoU: 0.4301)
+Epoch 02/15 | Train Loss: 0.3671 | Train mIoU: 0.4364 | Val Loss: 0.3739 | Val mIoU: 0.4112
+Epoch 03/15 | Train Loss: 0.3439 | Train mIoU: 0.4427 | Val Loss: 0.3673 | Val mIoU: 0.5105
+  Saved best model (Val mIoU: 0.5105)
+Epoch 04/15 | Train Loss: 0.3363 | Train mIoU: 0.4392 | Val Loss: 0.4258 | Val mIoU: 0.4118
+Epoch 05/15 | Train Loss: 0.3286 | Train mIoU: 0.4814 | Val Loss: 0.4520 | Val mIoU: 0.4116
+Epoch 06/15 | Train Loss: 0.3178 | Train mIoU: 0.5326 | Val Loss: 0.3625 | Val mIoU: 0.4497
+Epoch 07/15 | Train Loss: 0.3090 | Train mIoU: 0.5528 | Val Loss: 0.3419 | Val mIoU: 0.5285
+  Saved best model (Val mIoU: 0.5285)
+Epoch 08/15 | Train Loss: 0.3083 | Train mIoU: 0.5479 | Val Loss: 0.3996 | Val mIoU: 0.5571
+  Saved best model (Val mIoU: 0.5571)
+Epoch 09/15 | Train Loss: 0.3002 | Train mIoU: 0.5688 | Val Loss: 0.3738 | Val mIoU: 0.4611
+Epoch 10/15 | Train Loss: 0.2994 | Train mIoU: 0.5653 | Val Loss: 0.3183 | Val mIoU: 0.6253
+  Saved best model (Val mIoU: 0.6253)
+Epoch 11/15 | Train Loss: 0.2949 | Train mIoU: 0.5762 | Val Loss: 0.3070 | Val mIoU: 0.6146
+Epoch 12/15 | Train Loss: 0.2856 | Train mIoU: 0.5952 | Val Loss: 0.3189 | Val mIoU: 0.5654
+Epoch 13/15 | Train Loss: 0.2895 | Train mIoU: 0.5850 | Val Loss: 0.3125 | Val mIoU: 0.5673
+Epoch 14/15 | Train Loss: 0.2821 | Train mIoU: 0.5985 | Val Loss: 0.2870 | Val mIoU: 0.6478
+  Saved best model (Val mIoU: 0.6478)
+Epoch 15/15 | Train Loss: 0.2750 | Train mIoU: 0.6142 | Val Loss: 0.3030 | Val mIoU: 0.6029
+
+Training complete.
+Best validation mIoU: 0.6478
+
+============================================================
+TRAINING: SKIP FUSION MODEL
+============================================================
+Epoch 01/15 | Train Loss: 0.5158 | Train mIoU: 0.4750 | Val Loss: 0.4240 | Val mIoU: 0.4318
+  Saved best model (Val mIoU: 0.4318)
+Epoch 02/15 | Train Loss: 0.3742 | Train mIoU: 0.4308 | Val Loss: 0.3794 | Val mIoU: 0.4112
+Epoch 03/15 | Train Loss: 0.3502 | Train mIoU: 0.4265 | Val Loss: 0.3798 | Val mIoU: 0.4112
+Epoch 04/15 | Train Loss: 0.3319 | Train mIoU: 0.4294 | Val Loss: 0.3685 | Val mIoU: 0.4113
+Epoch 05/15 | Train Loss: 0.3271 | Train mIoU: 0.4604 | Val Loss: 0.3595 | Val mIoU: 0.5179
+  Saved best model (Val mIoU: 0.5179)
+Epoch 06/15 | Train Loss: 0.3204 | Train mIoU: 0.4848 | Val Loss: 0.3350 | Val mIoU: 0.5773
+  Saved best model (Val mIoU: 0.5773)
+Epoch 07/15 | Train Loss: 0.3157 | Train mIoU: 0.5073 | Val Loss: 0.3490 | Val mIoU: 0.4759
+Epoch 08/15 | Train Loss: 0.3077 | Train mIoU: 0.5438 | Val Loss: 0.3413 | Val mIoU: 0.5510
+Epoch 09/15 | Train Loss: 0.3002 | Train mIoU: 0.5703 | Val Loss: 0.3332 | Val mIoU: 0.5366
+Epoch 10/15 | Train Loss: 0.2991 | Train mIoU: 0.5650 | Val Loss: 0.3158 | Val mIoU: 0.6087
+  Saved best model (Val mIoU: 0.6087)
+Epoch 11/15 | Train Loss: 0.2935 | Train mIoU: 0.5822 | Val Loss: 0.3180 | Val mIoU: 0.5844
+Epoch 12/15 | Train Loss: 0.2895 | Train mIoU: 0.5831 | Val Loss: 0.3149 | Val mIoU: 0.5423
+Epoch 13/15 | Train Loss: 0.2903 | Train mIoU: 0.5805 | Val Loss: 0.3094 | Val mIoU: 0.6313
+  Saved best model (Val mIoU: 0.6313)
+Epoch 14/15 | Train Loss: 0.2856 | Train mIoU: 0.5985 | Val Loss: 0.2988 | Val mIoU: 0.6258
+Epoch 15/15 | Train Loss: 0.2767 | Train mIoU: 0.6019 | Val Loss: 0.3056 | Val mIoU: 0.6282
+
+Training complete.
+Best validation mIoU: 0.6313
